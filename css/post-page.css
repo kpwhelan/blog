@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tag Selectors */
+
+body {
+    background-image: linear-gradient(to bottom, #1b1b1b, #333);
+    padding: 2px 5px 0px 5px;
+    font-family: 'Jomolhari', serif;
+    color: #fff;
+}
+
+
+/* Class Selectors */
+
+.wrapper {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  #676767;
+}
+
+.wrapper p {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.wrapper a, .wrapper a:visited {
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+/* Id Selectors */
+
+
+
+@media only screen and (min-width: 800px) {
+    main {
+        padding: 60px;
+    }
+}

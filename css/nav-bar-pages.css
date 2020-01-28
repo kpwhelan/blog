@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    text-decoration: underline;
+    display: inline;
+    padding: 3px;
+    list-style: none;
+}
+
+nav ul li a, nav ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:active {
+    color: #768998;
+}
+
+#favicons-container ul li {
+    display: inline;
+}
+
+#instagram-favicon {
+    height: 45px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top:10px;
+}
+
+#twitter-favicon {
+    height: 40px;
+    width: 45px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 50%;
+    margin-top:10px;
+}
+
+#nav-bar-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-top: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+}
+
+
+@media only screen and (min-width: 800px) {
+    main {
+        padding: 60px;
+    }
+}
